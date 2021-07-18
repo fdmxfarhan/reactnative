@@ -1,0 +1,9 @@
+1. JDK path is not recogenized
+   Error:
+    Could not find tools.jar. Please check that C:\Program Files\Java\jre1.8.0_291 contains a valid JDK installation.
+   Solution:
+    Install JDK and add its path to `android/gradle.properties` using this command.
+    `org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_291`
+    the version might be different.
+
+2. 
