@@ -6,4 +6,8 @@
     `org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_291`
     the version might be different.
 
-2. 
+2. Gradle problem
+   Error:
+    don't remember :)
+   Solution:
+    open android folder by android studio and wait. A notif comes up saying update gradle. just hit update and it's fixed
