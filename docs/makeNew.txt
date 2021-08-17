@@ -1,0 +1,2 @@
+react-native init projectName
+> add JDK path to `android/gradle.properties`

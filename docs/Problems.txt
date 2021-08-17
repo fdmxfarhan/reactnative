@@ -11,3 +11,31 @@
     don't remember :)
    Solution:
     open android folder by android studio and wait. A notif comes up saying update gradle. just hit update and it's fixed
+
+3. Add Fonts
+   create a file and name it `react-native.config.js` inside root directory and put this lines in it. Then reload the project.
+   ```   
+   module.exports = {
+       project: {
+           ios:{},
+           android:{}
+       },
+       assets:['./assets/fonts/'],
+   }
+   ```
+
+4. Build APK
+   just go into android folder and run `./gradlew app:assembleRelease`
+   any Errors -> use VPN
+   the app-release.apk will be generated in `android\app\build\outputs\apk\release`
+
+5. Icons
+   run `npm i react-native-vector-icons` and then `react-native link react-native-vector-icons` then restart the app.
+   use it like this.
+   ```
+   import Icon from 'react-native-vector-icons/FontAwesome';
+   <Icon name="sign-in"/>
+   ```
+
+6. npm install failed
+   run `npm ci` and try again.
