@@ -39,3 +39,11 @@
 
 6. npm install failed
    run `npm ci` and try again.
+
+7. App Icon
+   app icon must be inside /android/app/src/main/res/
+   72*72   ic_launcher.png in mipmap-hdpi.
+   48*48   ic_launcher.png in mipmap-mdpi.
+   96*96   ic_launcher.png in mipmap-xhdpi.
+   144*144 ic_launcher.png in mipmap-xxhdpi.
+   192*192 ic_launcher.png in mipmap-xxxhdpi.
