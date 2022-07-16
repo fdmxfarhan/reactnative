@@ -1,5 +1,8 @@
-react-native init projectName
+## Run this in an administrator PowerShell:
+    choco install -y nodejs-lts openjdk11
+
+npx react-native init ProjectName
 npm install @react-navigation/native
 npm install react-native-screens react-native-safe-area-context
 
-> add JDK path to `android/gradle.properties`
+> add JDK path to `android/gradle.properties` (make sure to use "\\" insted of "\")
