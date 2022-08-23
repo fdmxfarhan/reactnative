@@ -35,6 +35,8 @@
    just go into android folder and run `./gradlew app:assembleRelease`
    any Errors -> use VPN
    the app-release.apk will be generated in `android\app\build\outputs\apk\release`
+4.1. release Bundle (.aab)
+   ./gradlew bundleRelease
 
 5. Icons
    run `npm i react-native-vector-icons` and then `react-native link react-native-vector-icons` then restart the app.
@@ -54,3 +56,4 @@
    96*96   ic_launcher.png in mipmap-xhdpi.
    144*144 ic_launcher.png in mipmap-xxhdpi.
    192*192 ic_launcher.png in mipmap-xxxhdpi.
+  
